@@ -129,6 +129,7 @@
   justify-content: center;
   position: sticky;
   object-fit: cover;
+  z-index: 1;
 }
 .gedescrol {
   top: 30%;
@@ -140,6 +141,7 @@
   height: 200px;
   float: left;
   border: 2px solid #fff;
+  z-index: 0;
 }
 .jumbo {
   width: 600px;
@@ -170,11 +172,5 @@
   .thumb {
     width: 30%;
     object-fit: cover;
-    z-index: 0;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .gede {
-    z-index: 1;
   }
 }
